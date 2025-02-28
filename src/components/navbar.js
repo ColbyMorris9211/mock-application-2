@@ -32,12 +32,22 @@ function BasicExample() {
         </ListItem>
         <ListItem>
           <ListItemButton onClick={() => handleNavigate('/about')}>
-            <ListItemText primary='About' />
+            <ListItemText primary='About Us' />
           </ListItemButton>
         </ListItem>
         <ListItem>
           <ListItemButton onClick={() => handleNavigate('/contact')}>
             <ListItemText primary='Contact Us' />
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton onClick={() => handleNavigate('/adoptions')}>
+            <ListItemText primary='Adoptions' />
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton onClick={() => handleNavigate('/faqs')}>
+            <ListItemText primary='Resources/FAQs' />
           </ListItemButton>
         </ListItem>
       </List>

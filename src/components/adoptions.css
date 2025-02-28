@@ -1,0 +1,10 @@
+.container .rescue {
+    text-align: start;
+    padding-left: 40px;
+}
+
+.rescue-image {
+    width:10%;
+    height: auto;
+    margin-right: 20px;
+}

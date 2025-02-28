@@ -11,6 +11,8 @@ import Settings from './components/settings.js';
 import ProductDetails from './components/product-details.js';
 import UserProfile from './components/user-profile.js';
 import CartComponent from './components/cart.js';
+import AdoptionsComponent from './components/adoptions.js';
+import FAQsComponent from './components/faqs.js';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="user-profile" element={<UserProfile />} />
           <Route path="cart" element={<CartComponent />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="adoptions" element={<AdoptionsComponent />} />
+          <Route path="faqs" element={<FAQsComponent />} />
         </Routes>
       </div>
     </BrowserRouter>
