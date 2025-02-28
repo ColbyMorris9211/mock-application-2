@@ -30,17 +30,6 @@ function Settings() {
               </div>
             </div>
         </div>
-        <div className='admin-option users'>
-            <PeopleIcon className='admin-icon'/>
-            <div>
-              <div className='admin-option-text'>
-                NewUsers
-              </div>
-              <div className='admin-option-text-secondary' >
-                +65
-              </div>
-            </div>
-        </div>
         <div className='admin-option stock'>
             <BarChartIcon className='admin-icon'/>
             <div>
