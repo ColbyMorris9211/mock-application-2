@@ -5,6 +5,7 @@ import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import PeopleIcon from '@mui/icons-material/People';
 import productImage from '../images/purina.jpeg';
 import { useNavigate } from 'react-router-dom';
+import BarChartIcon from '@mui/icons-material/BarChart';
 const productList = ['Product 1', 'Product 2', 'Product 3', 'Product 4', ' Product 5', 'Product 6','Product 7','Product 8'];
 
 function Settings() {
@@ -29,7 +30,7 @@ function Settings() {
               </div>
             </div>
         </div>
-        <div className='admin-option products'>
+        <div className='admin-option users'>
             <PeopleIcon className='admin-icon'/>
             <div>
               <div className='admin-option-text'>
@@ -40,8 +41,8 @@ function Settings() {
               </div>
             </div>
         </div>
-        <div className='admin-option products'>
-            <PhotoCameraIcon className='admin-icon'/>
+        <div className='admin-option stock'>
+            <BarChartIcon className='admin-icon'/>
             <div>
               <div className='admin-option-text'>
                 Product Stock

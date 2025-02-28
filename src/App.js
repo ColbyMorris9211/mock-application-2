@@ -9,6 +9,8 @@ import './App.css';
 import BasicExample from './components/navbar.js';
 import Settings from './components/settings.js';
 import ProductDetails from './components/product-details.js';
+import UserProfile from './components/user-profile.js';
+import CartComponent from './components/cart.js';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="Settings" element={<Settings />} />
           <Route path="ProductDetails" element={<ProductDetails />} />
+          <Route path="user-profile" element={<UserProfile />} />
+          <Route path="cart" element={<CartComponent />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
       </div>

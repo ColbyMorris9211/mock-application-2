@@ -7,12 +7,24 @@
 
 }
 
-.admin-option.products{
+.admin-option{
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, #1D53B5, #12A1E8);
+    background: linear-gradient(to right, #228587, #42E8EC);
     border-radius: 10px;
     cursor: pointer;
+}
+
+.admin-option.products{
+    background: linear-gradient(to right, #228587, #42E8EC);
+}
+
+.admin-option.users{
+    background: linear-gradient(to right, #F72A51, #FAA1B0);
+}
+
+.admin-option.stock{
+    background: linear-gradient(to right, #F9833A, #FCC8AA);
 }
 
 .admin-icon{

@@ -48,12 +48,12 @@ const BarStyling = {width:"20rem",background:"#F2F1F9", border:"none", padding:"
               </div>
 
               <div className='icon-button settings'>
-                <IconButton className='icon-button' style={{color: 'whitesmoke'}}>
+                <IconButton onClick={() => handleNavigate('/user-profile')} className='icon-button' style={{color: 'whitesmoke'}}>
                   <AccountCircleIcon style={{fontSize: 40}}/>
                 </IconButton>
               </div>
 
-              <IconButton className='icon-button' style={{color: 'whitesmoke'}}>
+              <IconButton onClick={() => handleNavigate('/cart')}  className='icon-button' style={{color: 'whitesmoke'}}>
                 <ShoppingCartIcon style={{fontSize: 40}}/>
               </IconButton>
             </div>
