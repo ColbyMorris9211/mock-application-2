@@ -1,0 +1,46 @@
+.main-content{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.productContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.productContainer .box{
+    width: 280px;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 20px;
+    background: grey;
+    padding: 10px 20px;
+}
+
+.productContainer .box .content{
+    align-items: center;
+    max-width: 100%;
+}
+
+.productContainer .box .content .img-box img{
+width: 100px;
+height: 200px;
+}
+
+.productContainer .box .content .detail .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: none;
+    background: #0cc0df;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.admin-option-container{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+
+}
+
+.admin-option.products{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #1D53B5, #12A1E8);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.admin-icon{
+    font-size: 60px !important;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.admin-option-text{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.admin-option-text-secondary{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
