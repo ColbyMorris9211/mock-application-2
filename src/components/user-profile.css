@@ -1,0 +1,111 @@
+.main-content {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.profileInformation {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 10%;
+  margin-left: 60%;
+  margin-bottom: 40px;
+}
+.infromation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #12a1e8;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.my-account,
+.infromation,
+.productContainer {
+  flex: 1;
+  min-width: 300px;
+}
+
+.profileInformation {
+  flex: 1;
+  max-width: 40%;
+  margin-left: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title h4 {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.title {
+  text-align: Left;
+  display: flex;
+  flex-direction: row;
+}
+
+.title span {
+  margin-left: 100px;
+}
+
+.section-1 {
+  border-radius: 5px;
+}
+
+.infromation span {
+  font-size: medium;
+  font-weight: 600;
+  margin: 7px;
+
+  line-height: 1.5;
+}
+
+.infromation .answer {
+  font-weight: 400;
+}
+
+.infromation .productContainer {
+  align-items: center;
+}
+
+.box {
+  width: 280px;
+  height: 250px;
+  overflow: hidden;
+
+  background: grey;
+  padding: 10px;
+  align-items: center;
+}
+
+.productContainer .box .content {
+  align-items: center;
+  max-width: 100%;
+}
+
+.productContainer .box .content .img-box img {
+  width: 100px;
+  height: 200px;
+}
+
+.productContainer .box .content .detail .info {
+  display: flex;
+  justify-content: space-between;
+}
