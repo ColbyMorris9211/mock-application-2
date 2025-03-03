@@ -1,0 +1,7 @@
+To start the application
+
+1) download node package manager here https://www.npmjs.com/
+
+2) open a powershell terminal and type npm install
+
+2) To start the application type npm start
