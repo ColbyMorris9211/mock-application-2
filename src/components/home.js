@@ -14,7 +14,8 @@ const productList = ['Product 1', 'Product 2', 'Product 3', 'Product 4', ' Produ
 function Home() {
   return (
     <section id="home" className='main-content'>
-      <div>
+      <div className='info-container'>
+      <div >
         <h1>
           Welcome To Our Pet Store
         </h1>
@@ -39,7 +40,8 @@ function Home() {
         </Carousel>
       </Box>
     </div>
-    <div >
+    </div>
+    <div className='recommended'>
           <h2>
             Reccommended Items
           </h2>

@@ -4,6 +4,15 @@
     overflow-x: hidden;
 }
 
+.info-container{
+    width: 100%;
+}
+
+.recommended{
+    width: 100%;
+    text-align: center;
+}
+
 .productContainer{
     width: 100%;
     display: flex;
