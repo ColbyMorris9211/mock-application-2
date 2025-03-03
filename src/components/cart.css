@@ -1,0 +1,46 @@
+.product-img{
+    max-width: 300px;
+
+}
+.product-list-view{
+    display: flex;
+}
+
+.product-stuff{
+    text-align: left;
+    width: 1325px;
+}
+
+.product-details h2{
+    height: 3em;
+}
+
+.purchase-details{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    margin-top: 75px;
+    border-top: 2px solid slategray;
+}
+
+.subtotal{
+    margin-left: 950px;
+}
+
+.purchase-details button{
+    height: 1.5em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main-content{
+    flex-direction: column;
+}
+
+.order-details{
+    border-top: 3px solid black;
+    margin-left: 300px;
+    padding-left: 1065px;
+}
