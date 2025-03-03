@@ -1,3 +1,14 @@
+To start the application
+
+1) download node package manager here https://www.npmjs.com/
+
+2) open a powershell terminal and type npm install
+
+3) install the react CLI with the following command npm install -g create-react-app
+
+2) To start the application type npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
