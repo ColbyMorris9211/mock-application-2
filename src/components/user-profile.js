@@ -11,7 +11,7 @@ function UserProfile() {
     navigate(path);
   };
   return (
-    <section id="about" className="main-content">
+    <section id="about" className="main-content-profile">
       <div className="profileInformation">
         <div className="my-account">
           <h1>My Account</h1>

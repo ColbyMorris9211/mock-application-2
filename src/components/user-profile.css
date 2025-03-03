@@ -1,10 +1,10 @@
-.main-content {
+.main-content-profile {
   display: flex;
-
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
   flex-direction: row;
+  width: 100%;
 }
 
 .profileInformation {
